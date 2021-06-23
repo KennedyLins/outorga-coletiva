@@ -1,0 +1,74 @@
+
+body {
+  background-image: url("../img/fundo-azul.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;    
+  background-size: 100% 100%;
+  }
+
+.content{
+  background-color: #fff;
+  width: 815px;
+  height:100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+    
+.img{
+  width: 100%;
+  height: auto;
+  }
+
+.teste {
+  border: 1px solid;
+
+}
+
+.titulo{
+  font-size:2ex;
+  text-align: center;	
+  margin-top: 10px;
+  }
+  
+.information{
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid;
+}
+
+.btn-div{
+
+  margin: 0 auto;
+  width: 50%; 
+  border: 1px solid;
+}
+
+.btn-config-01{
+
+  height: 40px;
+  width:  150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  
+}
+
+.btn-config-02{
+
+  height: 40px;
+  width:  120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+
+}
+
+.form-config{
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}

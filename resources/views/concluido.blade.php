@@ -28,17 +28,17 @@
                     <img src="{{asset('img/tira-apac-ana-governo.png')}}">
                 </div>
                 
-                <div class="row titulo"> 
+                <div class="row  titulo"> 
                 <h3>TERMO DE ALOCAÇÃO DE ÁGUA</h3>
                 <h3>ANEXO CADASTRAL</h3>
                 </div>
 
                 <div class="information "> 
                     <div class="row ">
-                    <h3>CADASTRE-SE AQUI</h3>
+                    <p>CADASTRO CONCLUÍDO COM SUCESSO!</p>
                     </div>
                     <div class="row ">
-                    <a class="btn-div btn btn-config-01 btn-primary" href="./formulario_anexo_cadastral" role="button">CADASTRAR</a>
+                    <a class="btn-div btn btn-config-01 btn-primary" href="https://www.apac.pe.gov.br" role="button">VOLTAR AO SITE</a>
                     </div>
                 </div>
             </div>

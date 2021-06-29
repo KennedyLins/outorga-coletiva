@@ -20,7 +20,8 @@ class SolicitanteController extends Controller
 
     public function redirect()
     {
-        return view('formulario');
+        //redirect()->route('formulario_anexo_cadastral');
+        return "ok";
     }
 
     /**

@@ -38,7 +38,7 @@
                     <h3>CADASTRE-SE AQUI</h3>
                     </div>
                     <div class="row ">
-                    <a class="btn-div btn btn-config-01 btn-primary" href="/formulario_anexo_cadastral" role="button">CADASTRAR</a>
+                    <a class="btn-div btn btn-config-01 btn-primary" href="./formulario_anexo_cadastral" role="button">CADASTRAR</a>
                     </div>
                 </div>
             </div>

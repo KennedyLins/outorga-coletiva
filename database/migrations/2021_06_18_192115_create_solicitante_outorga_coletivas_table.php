@@ -17,12 +17,12 @@ class CreateSolicitanteOutorgaColetivasTable extends Migration
             $table->id();
             $table->string('nome');
             $table->string('email');
-            $table->integer('cpf_cnpj');
-            $table->integer('rg');
+            $table->string('cpf_cnpj');
+            $table->string('rg');
             $table->string('montante_jusante');
             $table->string('local_captacao');
-            $table->string('latitude');
-            $table->string('longitude');
+            $table->string('latitude')->nullable();;
+            $table->string('longitude')->nullable();;
             $table->string('tipo_uso');
             $table->float('volume_jan');
             $table->float('volume_fev');
@@ -36,7 +36,7 @@ class CreateSolicitanteOutorgaColetivasTable extends Migration
             $table->float('volume_out');
             $table->float('volume_nov');
             $table->float('volume_dez');
-            $table->longText('observacao');
+            $table->longText('observacao')->nullable();
             
             $table->timestamps();
         });

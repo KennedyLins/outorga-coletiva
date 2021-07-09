@@ -21,7 +21,7 @@ class SolicitanteController extends Controller
     public function redirect()
     {
         //redirect()->route('formulario_anexo_cadastral');
-        return "ok";
+        return view('formulario');
     }
 
     /**

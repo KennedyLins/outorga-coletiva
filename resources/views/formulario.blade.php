@@ -62,7 +62,7 @@
                     <span class="input-group-text">E-mail*</span>
                     <input type="email" class="form-control" id="email" name="email"  placeholder="exemplo@exemplo.com" required>
                     <span class="input-group-text"></span>
-                    <input type="email" class="form-control" id="repita" name="repita" placeholder="Repita o e-mail" required >
+                    <input type="email" class="form-control" id="repita" name="repita" placeholder="Repita o e-mail*" required >
                 </div>
 
                 <div class="input-group mb-3">

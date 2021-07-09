@@ -76,7 +76,7 @@
                     <span class="input-group-text">Local da Captação*</span>
                     <input type="text" class="form-control" name="local_captacao" placeholder="" required>
                     <span class="input-group-text">Montante/Jusante*</span>
-                    <input type="number" class="form-control" name="montante_jusante" placeholder="" required >
+                    <input type="number" class="form-control" name="montante_jusante" placeholder="Apenas números" required >
                 </div>
 
                 <div class="input-group mb-3">
@@ -102,22 +102,22 @@
                     <td>Abr*</td>
                     </tr>
                     <tr>
-                    <td><input type="text" name="volume_jan" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_fev" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_mar" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_abr" placeholder="" required></input></td>
+                    <td><input type="number" name="volume_jan" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_fev" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_mar" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_abr" placeholder="Apenas números" required></input></td>
                     </tr>
                     <tr>
                     <td>Mai*</td>
-                    <td>Jun*/td>
+                    <td>Jun*</td>
                     <td>Jul*</td>
                     <td>Ago*</td>
                     </tr>
                     <tr>
-                    <td><input type="text" name="volume_mai" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_jun" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_jul" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_ago" placeholder="" required></input></td>
+                    <td><input type="number" name="volume_mai" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_jun" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_jul" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_ago" placeholder="Apenas números" required></input></td>
                     </tr>
                     <td>Set*</td>
                     <td>Out*</td>
@@ -125,10 +125,10 @@
                     <td>Dez*</td>
                     </tr>
                     </tr>
-                    <td><input type="text" name="volume_set" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_out" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_nov" placeholder="" required></input></td>
-                    <td><input type="text" name="volume_dez" placeholder="" required></input></td>
+                    <td><input type="number" name="volume_set" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_out" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_nov" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" name="volume_dez" placeholder="Apenas números" required></input></td>
                     </tr>
                 </tbody>
                 </table>

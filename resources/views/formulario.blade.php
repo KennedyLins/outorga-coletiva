@@ -47,8 +47,8 @@
 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon3">Sistema Hídrico*</span>
-                    <select class="form-select" name="sistema_hidrico" required>
-                        <option selected></option>
+                    <select class="form-select" name="sistema_hidrico" required >
+                        <option selected>Selecione</option>
                         <option value="1">Barra do Juá</option>
                     </select>
                 </div>
@@ -76,7 +76,11 @@
                     <span class="input-group-text">Local da Captação*</span>
                     <input type="text" class="form-control" name="local_captacao" placeholder="" required>
                     <span class="input-group-text">Montante/Jusante*</span>
-                    <input type="number" class="form-control" name="montante_jusante" placeholder="Apenas números" required >
+                    <select class="form-select" name="montante_jusante" required>
+                        <option selected>Selecione</option>
+                        <option value="montante">Montante</option>
+                        <option value="jusante">Jusante</option>
+                    </select>
                 </div>
 
                 <div class="input-group mb-3">

@@ -35,7 +35,7 @@
 
                 <div class="information "> 
                     <div class="row ">
-                    <p>CADASTRO CONCLUÍDO COM SUCESSO!</p>
+                    <p>CADASTRO CONCLUÍDO COM SUCESSO!!</p>
                     </div>
                     <div class="row ">
                     <a class="btn-div btn btn-config-01 btn-primary" href="https://www.apac.pe.gov.br" role="button">VOLTAR AO SITE</a>

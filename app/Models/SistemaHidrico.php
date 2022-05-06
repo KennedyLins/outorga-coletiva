@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class SistemaHidrico extends Model
 {
     use HasFactory;
+
+    public function solicitante()
+    {
+        return $this->hasMany(SolicitanteOutorgaColetiva::class);
+    }
+
+    
 }

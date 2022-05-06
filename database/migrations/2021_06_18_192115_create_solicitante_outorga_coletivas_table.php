@@ -37,8 +37,9 @@ class CreateSolicitanteOutorgaColetivasTable extends Migration
             $table->float('volume_nov');
             $table->float('volume_dez');
             $table->longText('observacao')->nullable();
-            
             $table->timestamps();
+            $table->unsignedBigInteger('sistema_hidricos_id');
+            $table->foreign('sistema_hidricos_id')->references('id')->on('sistema_hidricos');
         });
     }
 

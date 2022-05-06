@@ -49,7 +49,9 @@
                     <span class="input-group-text" id="basic-addon3">Sistema Hídrico*</span>
                     <select class="form-select" name="sistema_hidrico" required >
                         <option selected>Selecione</option>
-                        <option value="1">Barra do Juá</option>
+                        @foreach ($sistemas as $sistema)
+                        <option value="{{ $sistema->id }}">{{ $sistema->name }}</option>
+                        @endforeach
                     </select>
                 </div>
 

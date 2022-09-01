@@ -108,10 +108,10 @@
                     <td>Abr*</td>
                     </tr>
                     <tr>
-                    <td><input type="number" name="volume_jan" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_fev" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_mar" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_abr" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_jan" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_fev" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_mar" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_abr" placeholder="Apenas números" required></input></td>
                     </tr>
                     <tr>
                     <td>Mai*</td>
@@ -120,10 +120,10 @@
                     <td>Ago*</td>
                     </tr>
                     <tr>
-                    <td><input type="number" name="volume_mai" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_jun" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_jul" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_ago" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_mai" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_jun" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_jul" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_ago" placeholder="Apenas números" required></input></td>
                     </tr>
                     <td>Set*</td>
                     <td>Out*</td>
@@ -131,10 +131,10 @@
                     <td>Dez*</td>
                     </tr>
                     </tr>
-                    <td><input type="number" name="volume_set" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_out" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_nov" placeholder="Apenas números" required></input></td>
-                    <td><input type="number" name="volume_dez" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_set" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_out" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_nov" placeholder="Apenas números" required></input></td>
+                    <td><input type="number" step="0.01" min="0" name="volume_dez" placeholder="Apenas números" required></input></td>
                     </tr>
                 </tbody>
                 </table>
